@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input {
+  width: 90%;
+  border: 1px solid;
+  display: inline-block;
+}
+
+.blinking {
+  width: 2px;
+  margin-left: 2px;
+  height: 1em;
+  background: black;
+  display: inline-block;
+  animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
